@@ -11,7 +11,7 @@ Display any CSV file as a sortable HTML table.
 ``` html
 <script>
   CsvToHtmlTable.init({
-    csv_path: 'data/Health Clinics in Chicago.csv', 
+    csv_path: 'data/issues.csv', 
     element: 'table-container', 
     allow_download: true,
     csv_options: {separator: ',', delimiter: '"'},
